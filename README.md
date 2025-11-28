@@ -70,14 +70,15 @@ compliance-rag/
     ├── config.py           # Compliance Rules (15 definitions)
     ├── rate_limiter.py     # Custom Dual-Rate Limiter class
     └── main_app.py         # Main Streamlit Application
+```
 
 ---
-Setup & Installation
+## Setup & Installation
 1. Clone the Repository
 git clone https://github.com/your-username/compliance-rag.git
 cd compliance-rag
 
-2. Create a Virtual Environment
+## Create a Virtual Environment
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -86,16 +87,16 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install Dependencies
+## Install Dependencies
 pip install -r requirements.txt
 
-4. Configure API Keys
+## Configure API Keys
 
 Create a .env file in the root directory:
 
 GOOGLE_API_KEY=AIzaSy...YourKeyHere
 
-🏃 Usage
+## Usage
 
 Run the Streamlit application:
 
@@ -105,7 +106,7 @@ streamlit run src/main_app.py
 The UI opens automatically at:
 http://localhost:8501
 
-Workflow:
+## Workflow:
 
 Upload a PDF
 
