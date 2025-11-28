@@ -1,1 +1,1 @@
-# agentic-compliance-checker-
+# agentic-compliance-checker
