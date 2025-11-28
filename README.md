@@ -75,7 +75,7 @@ compliance-rag/
 ---
 ## Setup & Installation
 1. Clone the Repository
-git clone https://github.com/your-username/compliance-rag.git
+git clone 
 cd compliance-rag
 
 ## Create a Virtual Environment
